@@ -16,7 +16,7 @@ public class TicTacToeShould {
   }
 
   @Test
-  void whenXOutsideBoardThenRuntimeException() {
+  void not_allow_x_to_be_outside_of_the_board() {
     assertThrows(RuntimeException.class, () -> {
       ticTacToe.play(5, 2);
     });
