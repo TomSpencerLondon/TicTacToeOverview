@@ -36,4 +36,6 @@ public class TicTacToeShould {
         .isInstanceOf(RuntimeException.class)
         .hasMessage("Square occupied");
   }
+
+
 }
